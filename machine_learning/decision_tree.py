@@ -96,10 +96,10 @@ class DecisionTree:
                     min_error = error
 
         if best_split != 0:
-            left_x = x[:best_split]
-            left_y = y[:best_split]
-            right_x = x[best_split:]
-            right_y = y[best_split:]
+            left _ x = x[:best_split]
+            left _ y = y[:best_split]
+            right _ x = x[best_split:]
+            right _ y = y[best_split:]
 
             self.decision_boundary = x[best_split]
             self.left = DecisionTree(
